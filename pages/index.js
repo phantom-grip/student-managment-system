@@ -1,9 +1,9 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
+import { withData } from "utils/withData";
 
-export default () => <Title>My page</Title>
+import { LessonReview } from "views/lesson_review/LessonReview";
+
+const Page = () => <LessonReview />;
+
+export default withData(Page);

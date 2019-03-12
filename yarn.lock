@@ -895,6 +895,97 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.1.tgz#5c85d662f76fa1d34575766c5dcd6615abcd30d8"
   integrity sha512-FZdkNBDqBRHKQ2MEbSC17xnPFOhZxeJ2YGSfr2BKf3sujG49Qe3bB+rGCwQfIaA7WHnGeGkSijX4FuBCdrzW/g==
 
+"@zendeskgarden/css-variables@^6.1.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/css-variables/-/css-variables-6.2.1.tgz#87945ab106e4460fd0f0770146ff3ed874999d56"
+  integrity sha512-IhmL0VtQvcVOftPJ9wVYslc/mpWJiFAjKCtslzhwnZmrfxmMyqZ6HgGTFXXIRW1kJyw3E2LISriHbDUiQqlX5A==
+
+"@zendeskgarden/react-buttons@^3.9.1":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-buttons/-/react-buttons-3.9.1.tgz#e98d888c763125fab4e36dcb7a359737743c2220"
+  integrity sha512-dX5ciSqUfmkxXX83CWOlD6XTNEZrzuK0bSYQbI5br7eWXJMZXAAs2uWaNojqAJLabS0oSHel/Lt0hZlEFVhUaA==
+  dependencies:
+    "@zendeskgarden/css-variables" "^6.1.1"
+    "@zendeskgarden/react-selection" "^4.6.2"
+    "@zendeskgarden/react-utilities" "^0.2.5"
+    classnames "^2.2.5"
+    dom-helpers "^3.3.1"
+
+"@zendeskgarden/react-menus@^4.3.8":
+  version "4.3.8"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-menus/-/react-menus-4.3.8.tgz#a1ed4b2388280ad6e7c40b7a718461eed0785c9f"
+  integrity sha512-nrAXRLDrlTBzFzYefY1HYREQ3qrSvFjlcHsBKq1omRhmHjMSNr3ZX0QIEGsBd50RNZeoq9MWytsdZU0BtNPgHw==
+  dependencies:
+    "@zendeskgarden/react-modals" "^5.5.2"
+    "@zendeskgarden/react-selection" "^4.6.2"
+    "@zendeskgarden/react-tooltips" "^5.0.4"
+    "@zendeskgarden/react-utilities" "^0.2.5"
+    classnames "^2.2.5"
+    react-popper "^0.9.5"
+    react-portal "^4.1.4"
+    render-fragment "^0.1.1"
+
+"@zendeskgarden/react-modals@^5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-modals/-/react-modals-5.5.2.tgz#30cde84d19e194c1cabb6d7ca778970a84c57636"
+  integrity sha512-DQs6jRpDSlmHZ/ROpg25OsxWetwMBp8V2QiXDyfzMU5hPWl7qoQpEM7op4Emg+fI/q+jjWkm52MjDQf/DkBh3Q==
+  dependencies:
+    "@zendeskgarden/react-selection" "^4.6.2"
+    "@zendeskgarden/react-utilities" "^0.2.5"
+    classnames "^2.2.5"
+    dom-helpers "^3.3.1"
+    react-portal "^4.1.2"
+    tabbable "^1.1.2"
+
+"@zendeskgarden/react-select@^3.5.5":
+  version "3.5.5"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-select/-/react-select-3.5.5.tgz#27847ca823ece3bccb855360f0ec2215132e92d7"
+  integrity sha512-8C8GEgBaJ6GKN+MvyLdlUMIfmc2zZHQtctM/FJGfTEpHUaYjuQQjCw2jZeb8mIiFt3y5eqX0hzcjOfi6nuQMtQ==
+  dependencies:
+    "@zendeskgarden/react-menus" "^4.3.8"
+    "@zendeskgarden/react-selection" "^4.6.2"
+    "@zendeskgarden/react-textfields" "^3.8.3"
+    "@zendeskgarden/react-utilities" "^0.2.5"
+    classnames "^2.2.5"
+
+"@zendeskgarden/react-selection@^4.6.2":
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-selection/-/react-selection-4.6.2.tgz#95c061ad147aee428a02eb9e3eea939a6d2cd1bd"
+  integrity sha512-4Zf1tzK4+SyNg5bqSCe+wgEWjCLySP3xWwzW9Pi6Fib2mkGi2UVXsdSqdiMYMrtBba4JMvyLJCAKqMCk3ilWIw==
+  dependencies:
+    classnames "^2.2.5"
+    dom-helpers "^3.3.1"
+
+"@zendeskgarden/react-textfields@^3.8.3":
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-textfields/-/react-textfields-3.8.3.tgz#dee26e20e9469c30c8f4d13e9f59907f20f07374"
+  integrity sha512-QoO4VMBAFIBP7JLlknvs/+4usWoQMPto7hM1w0RHcbYM5eolwbCQ9GAWukW0cKC18yg2V5OQ8lPwlSiCk9fxdg==
+  dependencies:
+    "@zendeskgarden/react-selection" "^4.6.2"
+    "@zendeskgarden/react-utilities" "^0.2.5"
+    classnames "^2.2.5"
+
+"@zendeskgarden/react-theming@^3.2.1":
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-theming/-/react-theming-3.2.1.tgz#225c1cc67cea9b7cab1c226ac25bc3f3c77005d4"
+  integrity sha512-uaKfPg+MAoEJ5OSqmKW7Jd300zHCnbLx4tOtHcd83dpdVbIV+VllZ5sRxaCssjlm343Wez1taA4+VDIEBrweQw==
+
+"@zendeskgarden/react-tooltips@^5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-tooltips/-/react-tooltips-5.0.4.tgz#4ea783ddd54bfc48a839adb058bc49531b70c48f"
+  integrity sha512-wWTt9AJi0M4zsOiiwO3KN5KSq7h49wK/M7702RxPaegxpkfp+bOf/G2itDyQqdeSEFdvq4TAtiVTAuDC46/hzQ==
+  dependencies:
+    "@zendeskgarden/react-selection" "^4.6.2"
+    classnames "^2.2.5"
+    react-popper "0.8.2"
+    react-portal "^4.1.2"
+    render-fragment "^0.1.1"
+
+"@zendeskgarden/react-utilities@^0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-utilities/-/react-utilities-0.2.5.tgz#9598522a59c4c66bb21305c89680644658ad5d82"
+  integrity sha512-4Mgr12drBdBfxg92vwKqh7b4JSnxNX+K/vORkWKJpOFbjjxLd1PGqjkBib0+smZ+Zsh36mtIbiIVTUcl0omzPw==
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -1450,6 +1541,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.5:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
@@ -1763,6 +1859,13 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
+
+dom-helpers@^3.3.1:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
+  integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -3430,6 +3533,11 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
+popper.js@^1.12.9, popper.js@^1.14.1:
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.7.tgz#e31ec06cfac6a97a53280c3e55e4e0c860e7738e"
+  integrity sha512-4q1hNvoUre/8srWsH7hnoSJ5xVmIL4qgz+s4qf2TnJIMyZFUFMGH+9vE7mXynAlHSZ/NdTmmow86muD0myUkVQ==
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -3489,7 +3597,7 @@ prop-types@15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-prop-types@^15.5.4, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -3632,6 +3740,29 @@ react-is@^16.3.2, react-is@^16.6.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
   integrity sha512-PVadd+WaUDOAciICm/J1waJaSvgq+4rHE/K70j0PFqKhkTBsPv/82UGQJNXAngz1fOQLLxI6z1sEDmJDQhCTAA==
 
+react-popper@0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-0.8.2.tgz#092095ff13933211d3856d9f325511ec3a42f12c"
+  integrity sha512-sL3r9aOG8sw48Vs5EiTZV4EXhEH0eoN9718WoIsb0Lx2H/sAZbVLZrENduXCAhre6cEqSh7mMR5sI1luYkVhYQ==
+  dependencies:
+    popper.js "^1.12.9"
+    prop-types "^15.6.0"
+
+react-popper@^0.9.5:
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-0.9.5.tgz#02a24ef3eec33af9e54e8358ab70eb0e331edd05"
+  integrity sha1-AqJO8+7DOvnlToNYq3DrDjMe3QU=
+  dependencies:
+    popper.js "^1.14.1"
+    prop-types "^15.6.1"
+
+react-portal@^4.1.2, react-portal@^4.1.4:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-4.2.0.tgz#5400831cdb0ae64dccb8128121cf076089ab1afd"
+  integrity sha512-Zf+vGQ/VEAb5XAy+muKEn48yhdCNYPZaB1BWg1xc8sAZWD8pXTgPtQT4ihBdmWzsfCq8p8/kqf0GWydSBqc+Eg==
+  dependencies:
+    prop-types "^15.5.8"
+
 react@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
@@ -3766,6 +3897,11 @@ remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
+
+render-fragment@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/render-fragment/-/render-fragment-0.1.1.tgz#b231f259b7eee333d34256aee0ef3169be7bef30"
+  integrity sha512-+DnAcalJYR8GE5VRuQGGu78Q0GDe8EXnkuk4DF8gbAhIeS6LRt4j+aaggLLj4PtQVfXNC61McXvXI58WqmRleQ==
 
 repeat-element@^1.1.2:
   version "1.1.3"
@@ -4271,6 +4407,11 @@ supports-color@^5.3.0, supports-color@^5.5.0:
   integrity sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
   dependencies:
     has-flag "^3.0.0"
+
+tabbable@^1.1.2:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-1.1.3.tgz#0e4ee376f3631e42d7977a074dbd2b3827843081"
+  integrity sha512-nOWwx35/JuDI4ONuF0ZTo6lYvI0fY0tZCH1ErzY2EXfu4az50ZyiUX8X073FLiZtmWUVlkRnuXsehjJgCw9tYg==
 
 tapable@^1.0.0, tapable@^1.1.0:
   version "1.1.1"

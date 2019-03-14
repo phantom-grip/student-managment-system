@@ -3,7 +3,7 @@ import { TreeSelect } from "antd";
 
 const TreeNode = TreeSelect.TreeNode;
 
-export const ThemePicker = () => {
+export const ThemePicker = ({ placeholder = "Please select" }) => {
   const [value, setValue] = useState(undefined);
   const handleChange = value => setValue(value);
 
@@ -13,7 +13,7 @@ export const ThemePicker = () => {
       style={{ width: 300 }}
       value={value}
       dropdownStyle={{ maxHeight: 400, overflow: "auto" }}
-      placeholder="Please select"
+      placeholder={placeholder}
       allowClear
       multiple
       treeDefaultExpandAll

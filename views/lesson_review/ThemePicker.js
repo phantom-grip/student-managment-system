@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import { TreeSelect } from "antd";
 
 const TreeNode = TreeSelect.TreeNode;
@@ -19,18 +19,26 @@ export const ThemePicker = ({ placeholder = "Please select" }) => {
       treeDefaultExpandAll
       onChange={handleChange}
     >
-      <TreeNode value="parent 1" title="parent 1" key="0-1">
-        <TreeNode value="parent 1-0" title="parent 1-0" key="0-1-1">
-          <TreeNode value="leaf1" title="my leaf" key="random" />
-          <TreeNode value="leaf2" title="your leaf" key="random1" />
-        </TreeNode>
-        <TreeNode value="parent 1-1" title="parent 1-1" key="random2">
-          <TreeNode
-            value="sss"
-            title={<b style={{ color: "#08c" }}>sss</b>}
-            key="random3"
-          />
-        </TreeNode>
+      <TreeNode value="алгебра" title="алгебра" key="0-1">
+        <TreeNode
+          value="линейные уравнения"
+          title="линейные уравнения"
+          key="random"
+        />
+        <TreeNode
+          value="квадратные уравнения"
+          title="квадратные уравнения"
+          key="random1"
+        />
+        <TreeNode
+          value="уравнения с производной"
+          title="уравнения с производной"
+          key="random2"
+        />
+      </TreeNode>
+      <TreeNode value="геометрия" title="геометрия" key="0-1">
+        <TreeNode value="окружность" title="окружность" key="random" />
+        <TreeNode value="площадь" title="площадь" key="random1" />
       </TreeNode>
     </TreeSelect>
   );

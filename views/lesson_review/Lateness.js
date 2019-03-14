@@ -37,7 +37,7 @@ export const Lateness = () => {
             <DatePicker defaultValue={moment()} />
           </Form.Item>
           <Form.Item label="Опоздание" {...formItemLayout}>
-            <Radio.Group defaultValue="horizontal">
+            <Radio.Group defaultValue="Без Опозданий">
               <Radio.Button value="Без Опозданий">Без Опозданий</Radio.Button>
               <Radio.Button value="Опоздал">Опоздал</Radio.Button>
               <Radio.Button value="Сильно опоздал">Сильно опоздал</Radio.Button>
@@ -50,11 +50,12 @@ export const Lateness = () => {
             <ThemePicker />
           </Form.Item>
           <Form.Item label="Оценка" {...formItemLayout}>
-            <Radio.Group defaultValue="horizontal">
-              <Radio.Button value="Без Опозданий">Не сделано</Radio.Button>
-              <Radio.Button value="Опоздал">Плохо</Radio.Button>
-              <Radio.Button value="Сильно опоздал">Хорошо</Radio.Button>
-              <Radio.Button value="Сильно опоздал">Отлично</Radio.Button>
+            <Radio.Group defaultValue="Нормально">
+              <Radio.Button value="Не сделано">Не сделано</Radio.Button>
+              <Radio.Button value="Плохо">Плохо</Radio.Button>
+              <Radio.Button value="Нормально">Нормально</Radio.Button>
+              <Radio.Button value="Хорошо">Хорошо</Radio.Button>
+              <Radio.Button value="Отлично">Отлично</Radio.Button>
             </Radio.Group>
           </Form.Item>
         </Section>
@@ -83,10 +84,11 @@ export const Lateness = () => {
             <ThemePicker />
           </Form.Item>
           <Form.Item label="Оценка" {...formItemLayout}>
-            <Radio.Group defaultValue="horizontal">
-              <Radio.Button value="Без Опозданий">Плохо</Radio.Button>
-              <Radio.Button value="Опоздал">Хорошо</Radio.Button>
-              <Radio.Button value="Сильно опоздал">Отлично</Radio.Button>
+            <Radio.Group defaultValue="Нормально">
+              <Radio.Button value="Плохо">Плохо</Radio.Button>
+              <Radio.Button value="Нормально">Нормально</Radio.Button>
+              <Radio.Button value="Хорошо">Хорошо</Radio.Button>
+              <Radio.Button value="Отлично">Отлично</Radio.Button>
             </Radio.Group>
           </Form.Item>
         </Section>

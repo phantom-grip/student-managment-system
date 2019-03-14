@@ -109,7 +109,9 @@ export const Lateness = () => {
         </Section>
 
         <Form.Item {...buttonItemLayout}>
-          <Button type="primary">Submit</Button>
+          <Button type="primary" size={"large"}>
+            Посмотреть результат
+          </Button>
         </Form.Item>
       </Form>
     </div>

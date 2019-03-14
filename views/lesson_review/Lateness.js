@@ -20,7 +20,7 @@ export const Lateness = () => {
     formLayout === "horizontal"
       ? {
           labelCol: { span: 4 },
-          wrapperCol: { span: 14 }
+          wrapperCol: { span: 15 }
         }
       : null;
   const buttonItemLayout =

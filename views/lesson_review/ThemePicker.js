@@ -15,7 +15,6 @@ export const ThemePicker = ({ placeholder = "Please select" }) => {
       dropdownStyle={{ maxHeight: 400, overflow: "auto" }}
       placeholder={placeholder}
       allowClear
-      multiple
       treeDefaultExpandAll
       onChange={handleChange}
     >

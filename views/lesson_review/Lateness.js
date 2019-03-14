@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Form, Input, Button, Radio, Icon, DatePicker } from "antd";
 import { Box, Flex } from "rebass";
+import moment from "moment";
 
 import { ThemePicker } from "views/lesson_review/ThemePicker";
 import { LessonComment } from "views/lesson_review/LessonComment";
@@ -45,7 +46,7 @@ export class Lateness extends React.Component {
         <Form layout={formLayout}>
           <Section>
             <Form.Item label="Дата занятия" {...formItemLayout}>
-              <DatePicker />
+              <DatePicker defaultValue={moment()} />
             </Form.Item>
             <Form.Item label="Опоздание" {...formItemLayout}>
               <Radio.Group

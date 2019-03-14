@@ -47,7 +47,7 @@ export const Lateness = () => {
 
         <Section>
           <Form.Item label="Тема домашней" {...formItemLayout}>
-            <ThemePicker />
+            <ThemePicker placeholder={"Тема домашней"} />
           </Form.Item>
           <Form.Item label="Оценка" {...formItemLayout}>
             <Radio.Group defaultValue="Нормально">
@@ -62,7 +62,7 @@ export const Lateness = () => {
 
         <Section>
           <Form.Item label="Тема теста" {...formItemLayout}>
-            <ThemePicker />
+            <ThemePicker placeholder={"Тема теста"} />
           </Form.Item>
           <Form.Item label="Оценка" {...formItemLayout}>
             <Radio.Group defaultValue="horizontal">
@@ -81,7 +81,7 @@ export const Lateness = () => {
 
         <Section>
           <Form.Item label="Тема занятия" {...formItemLayout}>
-            <ThemePicker />
+            <ThemePicker placeholder={"Тема занятия"} />
           </Form.Item>
           <Form.Item label="Оценка" {...formItemLayout}>
             <Radio.Group defaultValue="Нормально">
@@ -95,16 +95,16 @@ export const Lateness = () => {
 
         <Section>
           <Form.Item label="Комментарий" {...formItemLayout}>
-            <LessonComment />
+            <LessonComment placeholder={"Прокомментировать занятие"} />
           </Form.Item>
         </Section>
 
         <Section>
           <Form.Item label="Аванс" {...formItemLayout}>
-            <LessonCreditSelector />
+            <LessonCreditSelector placeholder={"Укажите аванс"} />
           </Form.Item>
           <Form.Item label="Долг" {...formItemLayout}>
-            <LessonCreditSelector />
+            <LessonCreditSelector placeholder={"Укажите долг "} />
           </Form.Item>
         </Section>
 

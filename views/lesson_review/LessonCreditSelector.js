@@ -15,16 +15,17 @@ function handleFocus() {
   console.log("focus");
 }
 
-export const LessonCreditSelector = () => {
+export const LessonCreditSelector = ({ placeholder = "Сделайте выбор" }) => {
   return (
     <Select
       showSearch
       style={{ width: 200 }}
-      placeholder="Select a person"
+      placeholder={placeholder}
       optionFilterProp="children"
       onChange={handleChange}
       onFocus={handleFocus}
       onBlur={handleBlur}
+      defaultValue={0}
       filterOption={(input, option) =>
         option.props.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
       }
